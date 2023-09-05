@@ -1,0 +1,64 @@
+* {
+    margin: 10vw;
+    text-align: center;
+}
+
+body {
+    background-color: var(--main-color);
+}
+
+.container {
+    padding: 10vw;
+    margin-bottom: 10vh;
+}
+
+.title {
+    position: absolute;
+    left: 30vw;
+    width: 25vw;
+    top: 17vh;
+    /* padding-top: 1vh; */
+    /* padding-bottom: 1vh; */
+    /* background-color: var(--white-color); */
+    font-size: var(--normal-font-size);
+}
+
+.content {
+    z-index: -1;
+    background-color: var(--white-color);
+    position: absolute;
+    width: 40vw;
+    height: 75vh;
+    top: 12vh;
+    left: 30vw;
+}
+
+#webcam-container {
+    position: absolute;
+    left: 40vw;
+    top: 30vh;
+}
+
+#label-container {
+    position: absolute;
+    left: 45vw;
+    top: 76vh;
+    /* text-align: left; */
+}
+
+button {
+    position: absolute;
+    width: 5vw;
+    height: 4vh;
+    left: 61vw;
+    top: 17vh;
+    background-color: var(--white-color);
+}
+
+hr {
+    position: absolute;
+    width: 35vw;
+    left: 32.5vw;
+    top: 23vh;
+    border: 0.1px solid var(--gray-color);
+}
