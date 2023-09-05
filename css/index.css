@@ -62,3 +62,9 @@ hr {
     top: 23vh;
     border: 0.1px solid var(--gray-color);
 }
+
+button:hover,
+button:active,
+button:visited {
+    background-color: var(--main-color);
+}
